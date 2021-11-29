@@ -1,0 +1,19 @@
+.fondo {
+    @if $fondo == defecto{
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 176, 255, 1) 14%, rgba(247, 109, 207, 0.9220063025210083) 93%);
+    }
+
+    @if $fondo == navidad{
+        background-color: red;
+    }
+
+    @else if $fondo == primavera {
+        background-color: goldenrod;
+    }
+
+    @else {
+        background-color: black;
+    }
+    //if para cambiar fondo backgroun 
+} 

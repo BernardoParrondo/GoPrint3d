@@ -1,0 +1,1254 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252525;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 161, 161);
+    border-radius: 15px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+@media only screen and (min-width: 375px) {
+
+    .banner
+    {
+        height:15rem;
+    }
+
+    .fondo {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 176, 255, 1) 14%, rgba(247, 109, 207, 0.9220063025210083) 93%);
+    }
+
+    .goPrint {
+        text-align: center;
+        font-size: 40pt;
+        font-weight: 200;
+        
+        font-family: sans-serif;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        color: rgb(9, 198, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.5rem;
+        
+    }
+
+    .hamburguesa {
+        
+        width: 5rem;
+        height: 5rem;
+        
+        
+
+    }
+
+    
+    .hrFooter
+    {
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    
+
+    .hamburguesa :hover {
+        background-color: #000000;
+    }
+
+
+
+    .botoneraMenu {
+        list-style: none;
+    }
+
+    .botoneraMenu li {
+        font-size: 1.15rem;
+        display: inline-block;
+
+    }
+
+    .botoneraMenu ul {
+        position: absolute;
+        display: none;
+    }
+
+
+    .botoneraMenu ul li {
+        display: block;
+        margin-left: -3rem;
+        
+    }
+
+    .botoneraMenu li:hover ul {
+        display: block;
+        z-index: 1;
+    }
+
+    .subBotones {
+        box-shadow: inset 0px 1px 0px 0px #ffffff;
+        background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+        background-color: #f9f9f9;
+        border-radius: 6px;
+        border: 1px solid #dcdcdc;
+        display: inline-block;
+        cursor: pointer;
+        color: #666666;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffffff;
+        margin-bottom: 0.2rem;
+    }
+
+    .subBotones:hover {
+        background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+        background-color: #e9e9e9;
+    }
+
+    .subBotones:active {
+        position: relative;
+        top: 1px;
+    }
+
+
+
+
+    .division 
+    {
+        margin-top: 2.5rem;
+        border: 3px solid rgb(0, 0, 0); 
+        border-radius: 300px/10px; 
+        
+    
+    }
+
+
+
+    footer {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 10pt;
+        font-weight: bold;;
+    }
+
+
+
+    /* Comienzo index*/
+
+    #hIndex {
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+    }
+
+
+    .parrafoIndex p {
+        
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .varios
+    {
+        max-width: 100%;
+    }
+
+    .bender
+    {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .h3Index
+    {
+        margin-top: 5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .parrafoIndex2 p{
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .youtubeIndex
+    {
+        max-width: 100%;
+    }
+
+    #footer {
+        border-color: black;
+    }
+
+    /* galeria */
+
+    article.artGaleria {
+    
+        padding: 1rem;
+    
+    }
+
+    article.artGaleria1 {
+    
+        padding: 1rem;
+    
+    }
+
+    .galeria1
+    {
+        background-color: rgb(0, 218, 218);
+        
+        text-align: center;
+        border-radius: 1rem;
+        margin: 1rem;  
+    }
+
+    #hoverGaleria
+    {
+        visibility: hidden;
+    }
+
+    .galeria1 h1 {
+        color: rgb(0, 0, 0);
+        margin-top: 1rem;
+        font-size: 18pt;
+        text-align: center;
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .galeria1 p {
+        font-size: 15pt;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .turbina {
+        margin-top: 1rem;
+        width: 70%;
+        justify-self: center;
+        border-radius: 1rem;
+
+    }
+    .galeria2 {
+        color: rgb(0, 0, 0);
+        background-color: rgb(202, 0, 185);
+        border-radius: 1rem;
+        text-align: center;
+        height: 65rem;
+    }
+    
+    .galeria2 h2
+    {
+        color: rgb(0, 0, 0);
+        margin-top: 1rem;
+        font-size: 18pt;
+        text-align: center;
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .galeria2 p 
+    {
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 15pt;
+        text-align: center;
+    }
+
+    .artGaleria1 p
+    {
+        font-size: 15pt;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    
+
+    .artGaleria1 iframe {
+        height: 22rem;
+        width: 30rem;
+    
+    }
+
+    .youtubeGaleria
+    {   
+        
+        margin: auto;
+        display:block;
+    }
+
+    iframe.youtubeGaleria
+    {
+        
+        height: 30%;
+        width: auto;
+    }
+
+
+    body .flechaa {
+
+        display: none;
+    }
+
+
+    /* Impresoras */
+
+    .impresoras {
+        display: none;
+    }
+
+    .tabla {
+        display: none;
+        justify-self: center;
+        background-color: black;
+        color: red;
+        text-emphasis-color: red;
+    }
+
+    #tituloImpresoras {
+        font-size: 4rem;
+        text-align: center;
+        
+        
+    }
+
+
+    .tabla th {
+        font-size: 15px;
+        padding: 4px;
+        background: wheat;
+    }
+
+
+    tr td {
+        background-color: wheat;
+        color: rgb(17, 0, 255);
+        font-size: 2rem;
+    }
+
+    .tImp
+    {
+        padding: 1rem;
+        
+    }
+    .tiposImpresoras {
+        border-style: groove;
+    }
+
+    .tiposImpresoras h3 {
+        font-size: 20pt;
+        margin-top: 1rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-radius: 1rem;
+    }
+
+    .tiposImpresoras p {
+        font-size: 10pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 2rem;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .tiposImpresoras1 h3 {
+        font-size: 15pt;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+        
+        text-decoration: underline;
+    }
+
+    .tiposImpresoras1 p {
+        font-size: 10pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .tiposImpresoras1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+    .tiposImpresoras2 h3 {
+        font-size: 15pt;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 1rem;
+        
+        border-radius: 1rem;
+        
+        text-decoration: underline;
+    }
+
+    .tiposImpresoras2 p {
+        font-size: 10pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .tiposImpresoras2 img {
+        
+        display: block;
+        width: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tiposImpresoras3 h3 {
+        font-size: 15pt;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border-radius: 1rem;
+        text-decoration: underline;
+    }
+
+    .tiposImpresoras3 p {
+        font-size: 10pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+
+    }
+
+    .tiposImpresoras3 img {
+        width: 90%;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    /* TIENDA */
+
+
+
+    .h1Tienda {
+        margin-top: 10%;
+        text-align: center;
+        color: rgb(214, 146, 0);
+        text-shadow: -1px -1px 1px #aaa,
+            0px 4px 1px rgba(0, 0, 0, 0.5),
+            4px 4px 5px rgba(0, 0, 0, 0.7),
+            0px 0px 7px rgba(0, 0, 0, 0.4);
+        font-size: 20pt;
+    }
+
+    
+    .card
+    {
+        width: 70% !important;
+        height: 70% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .oreo
+    {
+        padding: 1rem;
+    }
+
+    .telefono
+    {
+        padding: 1rem;
+    }
+
+    .auris
+    {
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*Ofertas*/
+
+    .ofertas
+    {
+        font-size: 2rem;
+    }
+
+    .mantenimiento
+    {
+        display: none;
+    }
+
+    /* contacto */
+
+    .tituloContacto {
+        font-size: 15pt;
+        text-align: center;
+
+        margin-bottom: 1rem;
+    }
+
+    .puedesEnc {
+        display: grid;
+    }
+
+    .puedesEnc iframe {
+        width: 30rem;
+        height: 25rem;
+        justify-self: center;
+    }
+
+    .puedesEnc p {
+        font-size: 20pt;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .hoverMap {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .banner
+    {
+        max-width: 100%;
+        width: 100%;
+        height: 35rem;
+    }
+    
+    .goPrint
+    {
+        font-size: 55pt;
+    }
+
+    .division
+    {
+        margin-top: 3rem;
+    }
+
+
+    .desktop {
+        
+        visibility: hidden;
+        
+    }
+
+    .desktop li {
+        display: inline;
+        
+    }
+
+    .desktop ul {
+        position: absolute;
+        display: none;
+    }
+
+    .desktop ul li {
+        display: block;
+    }
+
+    .desktop li:hover ul {
+        display: block;
+    }
+
+    .desktopButon:hover {
+        background: linear-gradient(to bottom, #fdb8f4 5%, #ff00f2 100%);
+        background-color: #fdfdfd;
+    }
+
+    .desktopButon:active {
+        top: 4px;
+    }
+
+
+
+    .desktopButon {
+
+        text-decoration: none;
+        box-shadow: inset 0px 1px 0px 0px #fbdcf7;
+        background: linear-gradient(to bottom, #fabded 5%, #ff59f1 100%);
+
+        border-radius: 6px;
+        border: 1px solid #c584f3;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.5rem 4rem;
+        margin-left: 3rem;
+
+        text-shadow: 0px 1px 0px #f700ff25;
+    }
+
+    
+
+    /* index */
+
+    body #hIndex {
+        margin-top: 34px;
+        margin-bottom: 30px;
+        font-size: 20pt;
+    }
+
+    
+
+    body .parrafoIndex p {
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .parrafoIndex2 p
+    {
+        color: rgb(0, 0, 0);
+        font-size: 13pt;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .bender
+    {
+        max-width: 100%;
+    }
+
+    .varios
+    {
+        max-width: 100%;
+    }
+
+
+    .h3Index
+    {
+        font-size:20pt;
+    }
+
+    .youtubeIndex
+    {
+        margin-top: 8.5rem;
+    }
+
+
+    /* Galeria*/
+
+
+    .galeria1 h1 {
+        color: rgb(0, 0, 0);
+        
+        font-size: 21pt;
+    }
+
+    .galeria1 p {
+        font-size: 15pt; 
+    }
+
+    .turbina {
+        width: 80%;
+
+    }
+
+    .artGaleria1 h2
+    {
+        font-size: 20pt;
+    }
+
+    .artGaleria1 p {
+        font-size: 15pt;
+    
+        
+    }
+
+
+    iframe.youtubeGaleria {
+        
+        height: 34rem;
+        width: 45rem;
+        
+    }
+
+
+
+
+
+    body .flechaa {
+        margin-top: 127rem;
+        margin-left: 68rem;
+        display: inline-block;
+        justify-content: left;
+        margin-bottom: 2rem;
+
+    }
+
+
+    /* Impresoras */
+
+    .tabla
+    {
+        display: inherit;
+        visibility: visible;
+    }
+
+    .tablaImp
+    {
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .tiposImpresoras p {
+        font-size: 15pt;
+    }
+
+    .tiposImpresoras1 h3 {
+        font-size: 20pt;
+    }
+
+    .tiposImpresoras1 p {
+        font-size: 15pt;
+    }
+
+    .tiposImpresoras1 img {
+        width: 400px;
+        height: 280px;
+        
+    }
+
+    .tiposImpresoras2 h3 {
+        font-size: 20pt;
+    }
+
+    .tiposImpresoras2 p {
+        font-size: 15pt;
+    }
+
+    .tiposImpresoras2 img {
+        width: 400px;
+        height: 280px;
+        
+    }
+
+    .tiposImpresoras3 h3 {
+        font-size: 20pt;
+    }
+
+    .tiposImpresoras3 p {
+        font-size: 15pt;
+    }
+
+    .tiposImpresoras3 img {
+        width: 400px;
+        height: 280px;
+        
+    }
+
+
+    /*Tienda          */
+
+    .h1Tienda {
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+
+    }
+
+    .auris h5
+    {
+        font-size: 30pt;
+    }
+
+    .auris p
+    {
+        font-size: 13pt;
+    }
+
+    .auris a
+    {
+        font-size: 12pt;
+    }
+
+    .oreo h5
+    {
+        font-size: 30pt;
+    }
+
+    .oreo p
+    {
+        font-size: 13pt;
+    }
+
+    .oreo a
+    {
+        font-size: 12pt;
+    }
+    
+    .telefono h5
+    {
+        font-size: 30pt;
+    }
+
+    .telefono p
+    {
+        font-size: 13pt;
+    }
+
+    .telefono a
+    {
+        font-size: 12pt;
+    }
+    /* Ofertas*/
+
+    .ofertas
+    {
+        visibility: visible;
+        font-size: 10pt;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        background-color: white;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 104rem;
+
+    }
+
+    .mantenimiento
+    {
+        display: none;
+    }
+
+    .hoverMap {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    
+
+
+
+    .banner
+    {
+        max-width: 100%;
+        width: 100%;
+        height: 35rem;
+    }
+
+    body .goPrint {
+
+        text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+        font-size: 8rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2rem;
+        word-spacing: 1rem;
+        
+    }
+
+
+    .hamburguesa {
+        
+        width: 5rem;
+        height: 5rem;
+        
+        
+        
+
+    }
+
+    .mobileHamburguesa
+    {
+        margin-top: 2rem;
+    }
+
+
+    .footerColor
+    {
+        color: rgb(255, 255, 255);
+    }
+
+    body footer {
+        margin-top: -1rem;
+        font-size: 13pt;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .division
+    {
+        margin-top: 3rem;
+    }
+
+    body .hamburguesa {
+        display: none;
+    }
+
+    .desktop 
+    {
+        visibility: visible;
+        position: relative;
+        display: inline;
+        text-align: center;
+        
+    }
+
+    .btn-danger
+    {
+        color: black !important;
+        height: 3rem;
+    }
+
+
+    .desktop li {
+
+        margin-left: 1rem;
+    }
+
+    .desktopButon:hover {
+        background: linear-gradient(to bottom, #fdb8f4 5%, #ff00f2 100%);
+        background-color: #fdfdfd;
+    }
+
+    .desktopButon:active {
+        top: 4px;
+    }
+
+
+    .desktop li:hover ul {
+        display: block;
+    }
+
+    .subBoton
+    {
+        margin-left: 100rem;
+        color: black;
+        padding: 1rem;
+    
+    }
+
+    
+
+    .desktopButonHover
+    {   box-shadow: inset 0px 1px 0px 0px #ffffff;
+        background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+        
+        border-radius: 6px;
+        border: 2px solid #000000;
+        cursor: pointer;
+        color: #666666;
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 3px 10px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffffff;
+        margin-bottom: 0.2rem;
+        
+    }
+    
+
+    /* index */
+
+    body #hIndex {
+        text-align: center;
+        font-size: 20pt;
+        color:white;
+    }
+
+
+    body .parrafoIndex p {
+        font-size: 15pt;
+        font-weight: 400;
+        color: black;
+    }
+
+    .varios
+    {
+        max-width: 90%;
+    }
+
+    .bender
+    {
+        max-width: 100%;
+    }
+
+    .h3Index
+    {
+        text-align: center;
+        font-size: 20pt;
+        color:white;
+    }
+
+    .youtubeIndex {
+    
+    height: 40rem;
+    width: 70rem;
+        
+    }
+
+    .parrafoIndexx
+    {
+        margin-top: 3rem;
+    }
+
+    body .parrafoIndex2 p {
+        font-size: 15pt;
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        margin-top: 6rem;
+        
+    }
+
+
+    /* Galeria*/
+
+    .artGaleria
+    {
+        
+        padding: 2rem;
+    }
+    
+
+    #hoverGaleria
+    {
+        visibility: visible;
+        font-size: 10pt;
+        color: rgb(0, 0, 0);
+    }
+
+    .turbina {
+        width: 200px;
+        height: 200px;
+        transition: height 2s, width 2s;
+        margin-bottom: 1rem;
+    }
+
+    .turbina:hover {
+        height: 400px;
+        width: 500px;
+        border-style: solid;
+        background-color: white;
+        margin-left: auto;
+        padding: 4px;
+        margin-right: auto;
+
+    }
+
+
+    .artGaleria1
+    {
+        padding: 2rem;
+    
+        
+        
+    }
+
+    .artGaleria1 p
+    {
+        text-align: center;
+        
+    }
+    
+    .youtubeGaleria
+    {   
+        
+        margin: auto;
+        display:block;
+    }
+
+    iframe.youtubeGaleria
+    {
+        
+        height: 450px;
+        width: 800px;
+    }
+
+    .hrGaleria
+    {
+        margin-top: 130rem;
+    }
+
+
+    /* Impresoras */
+
+    .impresoras
+    {
+        display: inherit;
+        visibility: visible;
+    }
+    
+    .tablaImp {
+        
+        margin-bottom: 100px;
+        display: grid;
+    }
+
+
+    .tabla {
+        
+        background-color: black;
+        color: red;
+        text-emphasis-color: red;
+        display: inline;
+    }
+
+    .tabla th {
+        font-size: 15px;
+        padding: 4px;
+        background: wheat;
+    }
+
+
+    tr td {
+        background-color: wheat;
+        color: rgb(17, 0, 255);
+        font-size: 2rem;
+    }
+
+    
+    
+
+    /* Imagenes de pagina impresoras */
+    .tiposImpresoras1 img {
+        width: 400px;
+        height: 300px;
+        
+    }
+
+    .tiposImpresoras2 img {
+        width: 600px;
+        height: 400px;
+        
+    }
+
+    .tiposImpresoras3 img {
+        width: 600px;
+        
+    }
+
+    /*Tienda          */
+
+    
+
+    .h1Tienda {
+        font-size: 30pt;
+    }
+
+
+
+    .oreo
+    {
+        padding: 1rem;
+    }
+
+    .telefono
+    {
+        padding: 1rem;
+    }
+
+    .auris
+    {
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body
+    {
+        color: white;
+        background-color: black;
+    }
+
+    /*Ofertas*/
+
+    .ofertas
+    {
+        font-size: 4rem;
+    }
+
+    .mantenimiento
+    {
+        
+        display:  initial;
+    }
+
+    /* contacto */
+
+    body .mapa {
+        transition: height 2s, width 2s;
+    }
+
+    body .mapa:hover {
+        height: 800px;
+        width: 800px;
+
+    }
+
+    body .hoverMap {
+        font-size: 14pt;
+        display: initial;
+    }
+
+}

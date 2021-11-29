@@ -1,0 +1,659 @@
+@media only screen and (min-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; }
+  ::-webkit-scrollbar {
+    width: 9px; }
+  ::-webkit-scrollbar-track {
+    background: #252525; }
+  ::-webkit-scrollbar-thumb {
+    background: #a1a1a1;
+    border-radius: 15px; }
+  html {
+    font-size: 62.5%; }
+  .banner {
+    height: 15rem !important;
+    max-width: 100%; }
+  .titulo__goPrint3d {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    color: #09c6ff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5rem; }
+  .hrFooter {
+    border: 1px solid white;
+    border-radius: 5px; }
+  .divisionHr {
+    margin-top: 2.5rem;
+    border: 3px solid black;
+    border-radius: 300px/10px; }
+  footer {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10pt;
+    font-weight: bold; }
+  /* Comienzo index*/
+  .section__parrafoPrincipal__fila1 h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 15pt; }
+  .section__parrafoPrincipal__fila1 p {
+    color: black;
+    font-size: 13pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .section__parrafoSecundario h3 {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 15pt; }
+  .section__parrafoSecundario p {
+    color: black;
+    font-size: 13pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .section__parrafoSecundario iframe {
+    max-width: 100%; }
+  /*Imagenes Index*/
+  .bender {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .varios {
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* galeria */
+  .section__galeriaPrincipal {
+    padding: 1rem; }
+  .section__galeriaPrincipal__fila1 {
+    background-color: #00dada;
+    border-radius: 1rem; }
+    .section__galeriaPrincipal__fila1 h1 {
+      color: white;
+      margin-top: 1rem;
+      font-size: 18pt;
+      text-align: center;
+      text-decoration: underline; }
+    .section__galeriaPrincipal__fila1 p {
+      text-align: center;
+      font-size: 15pt;
+      color: black; }
+    .section__galeriaPrincipal__fila1 img {
+      margin-top: 1rem;
+      width: 80%;
+      display: flex;
+      margin: 0 auto;
+      border-radius: 1rem; }
+    .section__galeriaPrincipal__fila1 h3 {
+      visibility: hidden; }
+  .section__galeriaSecundario {
+    padding: 1rem; }
+  .section__galeriaSecundario__fila1 {
+    background-color: #ca00b9;
+    border-radius: 1rem;
+    height: 70rem; }
+    .section__galeriaSecundario__fila1 h2 {
+      color: white;
+      text-align: center;
+      font-size: 18pt;
+      padding: 10px; }
+    .section__galeriaSecundario__fila1 p {
+      font-size: 15pt;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+    .section__galeriaSecundario__fila1 iframe {
+      width: 80%;
+      height: 25rem;
+      display: flex;
+      margin: 0 auto;
+      border-radius: 1rem; }
+  /* Impresoras */
+  .impresoras {
+    display: none; }
+  .tabla {
+    display: none;
+    justify-self: center;
+    background-color: black;
+    color: red;
+    text-emphasis-color: red; }
+  .section__impresorasPrincipal {
+    padding: 1rem; }
+  .section__impresorasPrincipal_fila1 {
+    border-style: groove; }
+    .section__impresorasPrincipal_fila1 h3 {
+      font-size: 20pt;
+      margin-top: 1rem;
+      text-align: center;
+      color: white;
+      background-color: black;
+      padding: 7%;
+      border-radius: 1rem; }
+    .section__impresorasPrincipal_fila1 p {
+      font-size: 10pt;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+      color: black; }
+  .section__impresorasSecundaria_fila1 h3 {
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    text-decoration: underline; }
+  .section__impresorasSecundaria_fila1 p {
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: black; }
+  .section__impresorasSecundaria_fila1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .section__impresorasTercera_fila1 h3 {
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: underline; }
+  .section__impresorasTercera_fila1 p {
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: black; }
+  .section__impresorasTercera_fila1 img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  .section__impresorasCuarta_fila1 h3 {
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    text-decoration: underline; }
+  .section__impresorasCuarta_fila1 p {
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: black; }
+  .section__impresorasCuarta_fila1 img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* TIENDA */
+  .h1Tienda {
+    margin-top: 10%;
+    text-align: center;
+    color: #d69200;
+    text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5), 4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+    font-size: 20pt; }
+  .card {
+    width: 70% !important;
+    height: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .card-text {
+    font-size: 10pt;
+    font-weight: bold; }
+  .tienda__oreo {
+    padding: 1rem; }
+  .tienda__telefono {
+    padding: 1rem; }
+  .tienda__auris {
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto; }
+  .tienda__ps4 {
+    padding: 1rem; }
+  .tienda__appleWatch {
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto; }
+  /*Ofertas*/
+  .ofertas__titulo {
+    margin-bottom: 1rem;
+    margin-bottom: 1rem; }
+    .ofertas__titulo h1 {
+      font-size: 20pt;
+      color: white;
+      text-align: center;
+      background-color: black; }
+  .ofertas__fila1 {
+    margin-bottom: 1rem; }
+    .ofertas__fila1 h5 {
+      font-size: 18pt; }
+    .ofertas__fila1 p {
+      font-size: 10pt; }
+  .ofertas__fila2 h5 {
+    font-size: 18pt; }
+  .ofertas__fila2 p {
+    font-size: 10pt; }
+  /* contacto */
+  .puedes__encontrarnos h1 {
+    font-size: 20pt;
+    text-align: center; }
+  .puedes__encontrarnos h4 {
+    display: none; }
+  .puedes__encontrarnos iframe {
+    width: 30rem;
+    height: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .puedes__encontrarnos p {
+    font-size: 20pt;
+    margin-top: 2rem;
+    margin-left: 1rem; }
+  .puedes__encontrarnos .hoverMap {
+    display: none; }
+  .instagram, .facebook {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* ERROR 404*/
+  .error404 {
+    width: 1rem;
+    height: 20rem; } }
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 20rem !important; }
+  .titulo__goPrint3d {
+    font-size: 40pt; }
+  .divisionHr {
+    margin-top: 3rem; }
+  .desktop {
+    visibility: hidden; }
+  .desktop li {
+    display: inline; }
+  .desktop ul {
+    position: absolute;
+    display: none; }
+  .desktop ul li {
+    display: block; }
+  .desktop li:hover ul {
+    display: block; }
+  .desktopButon:hover {
+    background: linear-gradient(to bottom, #fdb8f4 5%, #ff00f2 100%);
+    background-color: #fdfdfd; }
+  .desktopButon:active {
+    top: 4px; }
+  .desktopButon {
+    text-decoration: none;
+    box-shadow: inset 0px 1px 0px 0px #fbdcf7;
+    background: linear-gradient(to bottom, #fabded 5%, #ff59f1 100%);
+    border-radius: 6px;
+    border: 1px solid #c584f3;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 0.5rem 2.5rem;
+    text-shadow: 0px 1px 0px #f700ff25; }
+  /* index */
+  .section__parrafoPrincipal__fila1 h1 {
+    font-size: 20pt;
+    color: white;
+    text-align: center; }
+  .section__parrafoPrincipal__fila1 p {
+    color: black;
+    font-size: 13pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .section__parrafoSecundario p {
+    color: black;
+    font-size: 13pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center; }
+  .section__parrafoSecundario_youtube {
+    width: 100%;
+    display: block;
+    align-self: center; }
+  /* Galeria*/
+  .section__galeriaPrincipal h1 {
+    color: black;
+    font-size: 21pt; }
+  .section__galeriaPrincipal p {
+    font-size: 15pt; }
+  .section__galeriaPrincipal img {
+    width: 80%; }
+  .section__galeriaSecundario {
+    padding: 1rem; }
+  .section__galeriaSecundario__fila1 h2 {
+    font-size: 20pt; }
+  .section__galeriaSecundario__fila1 p {
+    font-size: 15pt; }
+  .section__galeriaSecundario__fila1 iframe {
+    width: 50rem;
+    height: 30rem;
+    display: block;
+    align-self: center; }
+  body .flechaa {
+    margin-top: 127rem;
+    margin-left: 68rem;
+    display: inline-block;
+    justify-content: left;
+    margin-bottom: 2rem; }
+  /* Impresoras */
+  .impresoras {
+    display: block;
+    text-align: center; }
+  .tabla {
+    display: inherit;
+    visibility: visible;
+    justify-self: center;
+    background-color: black;
+    color: red;
+    text-emphasis-color: white; }
+    .tabla th {
+      font-size: 20px;
+      padding: 4px;
+      background: wheat; }
+    .tabla tr td {
+      background-color: wheat;
+      color: #1100ff;
+      font-weight: bold;
+      font-size: 14px; }
+  .tablaImp {
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto; }
+  .section__impresorasPrincipal_fila1 p {
+    font-size: 15pt; }
+  .section__impresorasSecundaria_fila1 h3 {
+    font-size: 20pt; }
+  .section__impresorasSecundaria_fila1 p {
+    font-size: 15pt; }
+  .section__impresorasSecundaria_fila1 img {
+    width: 400px;
+    height: 280px; }
+  .section__impresorasTercera_fila1 h3 {
+    font-size: 20pt; }
+  .section__impresorasTercera_fila1 p {
+    font-size: 15pt; }
+  .section__impresorasTercera_fila1 img {
+    width: 400px;
+    height: 280px; }
+  .section__impresorasCuarta_fila1 h3 {
+    font-size: 20pt; }
+  .section__impresorasCuarta_fila1 p {
+    font-size: 15pt; }
+  .section__impresorasCuarta_fila1 img {
+    width: 400px;
+    height: 280px; }
+  /*Tienda          */
+  .h1Tienda {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline; }
+  .tienda__auris h5 {
+    font-size: 30pt; }
+  .tienda__auris p {
+    font-size: 13pt; }
+  .tienda__auris a {
+    font-size: 12pt; }
+  .tienda__oreo h5 {
+    font-size: 30pt; }
+  .tienda__oreo p {
+    font-size: 13pt; }
+  .tienda__oreo a {
+    font-size: 12pt; }
+  .tienda__telefono h5 {
+    font-size: 30pt; }
+  .tienda__telefono p {
+    font-size: 13pt; }
+  .tienda__telefono a {
+    font-size: 12pt; }
+  .tienda__ps4 h5 {
+    font-size: 30pt; }
+  .tienda__ps4 p {
+    font-size: 13pt; }
+  .tienda__ps4 a {
+    font-size: 12pt; }
+  .tienda__appleWatch h5 {
+    font-size: 30pt; }
+  .tienda__appleWatch p {
+    font-size: 13pt; }
+  .tienda__appleWatch a {
+    font-size: 12pt; }
+  .tienda__appleWatch img {
+    height: 500px; }
+  /* Ofertas*/
+  .ofertas__fila1 h5 {
+    font-size: 20pt; }
+  .ofertas__fila1 p {
+    font-size: 14pt; }
+  .ofertas__fila2 h5 {
+    font-size: 20pt; }
+  .ofertas__fila2 p {
+    font-size: 14pt; }
+  /*Contacto */
+  .puedes__encontrarnos h1 {
+    font-size: 30pt; }
+  .puedes__encontrarnos iframe {
+    width: 60rem;
+    height: 40rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .banner {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 30rem !important; }
+  body .titulo__goPrint3d {
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2rem; }
+  .hamburguesa {
+    width: 5rem;
+    height: 5rem; }
+  .mobileHamburguesa {
+    margin-top: 2rem; }
+  footer {
+    margin-top: -1rem;
+    font-size: 13pt;
+    font-weight: 500;
+    color: white; }
+  .divisionHr {
+    margin-top: 3rem; }
+  body .hamburguesa {
+    display: none; }
+  .desktop {
+    visibility: visible;
+    position: relative;
+    display: inline;
+    text-align: center; }
+  .btn-danger {
+    color: black !important;
+    height: 3rem; }
+  .desktop li {
+    margin-left: 1rem; }
+  .desktopButon:hover {
+    background: linear-gradient(to bottom, #fdb8f4 5%, #ff00f2 100%);
+    background-color: #fdfdfd; }
+  .desktopButon:active {
+    top: 4px; }
+  .desktop li:hover ul {
+    display: block; }
+  .subBoton {
+    margin-left: 100rem;
+    color: black;
+    padding: 1rem; }
+  .desktopButonHover {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    border-radius: 6px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-bottom: 0.2rem; }
+  /* index */
+  .section__parrafoPrincipal {
+    margin-bottom: 2rem; }
+  .section__parrafoPrincipal__fila1 p {
+    font-size: 15pt;
+    font-weight: 400;
+    color: black;
+    padding: 4rem; }
+  .section__parrafoSecundario p {
+    font-size: 15pt;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem; }
+  .varios {
+    margin-top: 0; }
+  /* Galeria*/
+  .section__articlePrincipal {
+    padding: 2rem; }
+  .section__galeriaPrincipal__fila1 img {
+    width: 200px;
+    height: 200px;
+    transition: height 3s, width 3s;
+    margin-bottom: 1rem; }
+    .section__galeriaPrincipal__fila1 img:hover {
+      height: 400px;
+      width: 500px;
+      border-style: solid;
+      background-color: white;
+      margin-left: auto;
+      padding: 4px;
+      margin-right: auto; }
+  .section__galeriaSecundario__fila1 {
+    height: 70rem; }
+    .section__galeriaSecundario__fila1 p {
+      text-align: center; }
+    .section__galeriaSecundario__fila1 iframe {
+      width: 70%;
+      height: 50rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  /* Impresoras */
+  .impresoras {
+    display: inherit;
+    visibility: visible; }
+  .tablaImp {
+    margin-bottom: 100px;
+    display: grid; }
+  .tabla {
+    background-color: black;
+    color: red;
+    text-emphasis-color: red;
+    display: inline; }
+    .tabla th {
+      font-size: 15px;
+      padding: 4px;
+      background: wheat; }
+    .tabla tr td {
+      background-color: wheat;
+      color: #1100ff;
+      font-size: 1rem; }
+  /* Imagenes de pagina impresoras */
+  .section__impresorasSecundaria_fila1 img {
+    width: 400px;
+    height: 300px; }
+  .section__impresorasTercera_fila1 img {
+    width: 600px;
+    height: 400px; }
+  .section__impresorasCuarta_fila1 img {
+    width: 600px; }
+  /*Tienda          */
+  /*Ofertas*/
+  .ofertas {
+    font-size: 4rem; }
+  .mantenimiento {
+    display: initial; }
+  /* contacto */
+  .puedes__encontrarnos h1 {
+    font-size: 24pt;
+    text-align: center; }
+  .puedes__encontrarnos h4 {
+    display: inherit;
+    font-size: 14pt;
+    text-align: center; }
+  .puedes__encontrarnos iframe {
+    transition: height 2s, width 2s; }
+    .puedes__encontrarnos iframe:hover {
+      height: 800px;
+      width: 800px; } }
+
+.instagram-background {
+  background-color: orange;
+  font-size: 20pt;
+  height: 38px;
+  margin: 0%; }
+
+.facebook-background {
+  background-color: #3b5998;
+  font-size: 20pt;
+  height: 38px;
+  margin: 0%; }
+
+.fondo {
+  background: black;
+  background: linear-gradient(0deg, black 0%, #00b0ff 14%, rgba(247, 109, 207, 0.922006) 93%);
+  background-color: black; }
+
+.navSticky {
+  position: sticky !important;
+  height: 50px;
+  top: 0;
+  padding: 0;
+  margin: 0%;
+  z-index: 2;
+  max-width: 100%;
+  /* Full width */ }
+
+.nav-link {
+  color: black !important;
+  font-size: 12pt !important; }
+
+.navbar-brand {
+  color: black !important;
+  font-size: 13pt !important;
+  font-weight: bold; }
+
+.btn__error {
+  text-align: center; }
+
+.btn__error__boton {
+  width: 16rem;
+  background-color: #ff7b00 !important;
+  border-color: #ff7b00 !important;
+  font-size: 14pt !important;
+  font-weight: bold !important; }
